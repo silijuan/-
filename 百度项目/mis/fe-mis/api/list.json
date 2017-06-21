@@ -1,0 +1,43 @@
+{
+    "code": 0,
+    "msg": "",
+    "data": {
+    	"results": [
+    		{
+    			"id": "123",
+				"partner_id": "保险公司id",
+				"tb_username": "投保人名称",
+				"tb_phone": "投保人电话",
+				"city_id": "城市id",
+				"platenum": "车牌号",
+				"total_price": "订单总金额",
+				"rebate_price": "返现基数",
+				"total_rebate": "返现金额",
+				"status": "1",
+				"ctime": "创建时间",
+				"mtime": "修改时间"
+
+    		},
+    		{
+    			"id": "123",
+				"partner_id": "保险公司id",
+				"tb_username": "投保人名称",
+				"tb_phone": "投保人电话",
+				"city_id": "城市id",
+				"platenum": "车牌号",
+				"total_price": "订单总金额",
+				"rebate_price": "返现基数",
+				"total_rebate": "返现金额",
+				"status": "2",
+				"ctime": "创建时间",
+				"mtime": "修改时间"
+    		}
+    	],
+    	"calculate": {
+    		"order_amount": "40",
+			"total_price": "订单总流水",
+			"total_rebate": "总返现基数",
+			"total_tax": "车船税总额"
+    	}
+    }
+}

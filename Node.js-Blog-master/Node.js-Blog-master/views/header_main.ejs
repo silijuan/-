@@ -1,0 +1,27 @@
+<div class="header">
+	<div class="container clearfix">
+		<h1 class="pull-left"><a href="/home">pspgbhu的博客</a></h1>
+		<ul class="pull-right">
+			<li><a href="/home">HOME</a></li>
+			<li><a href="/blog">BLOG</a></li>
+			<li><a href="/about">ABOUT ME</a></li>
+
+			<% if(user){ %>
+			<li><a href="/post">POST</a></li>
+			<li><a href="/logout">LOGOUT</a></li>
+			<% } %>
+			
+		</ul>
+	</div>
+</div>
+
+<% if (success) { %>
+	<h2><%= success %></h2>
+<% } %>
+
+<% if (error) { %>
+	<h2><%= error %> </h2>
+<% } %>
+
+<div class="container main">	
+	<div class="">

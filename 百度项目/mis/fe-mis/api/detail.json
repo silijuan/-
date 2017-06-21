@@ -1,0 +1,74 @@
+{
+    "code": 0,
+    "msg": "",
+    "data": {
+		"orderInfo": {
+            "id": "订单id",
+            "partner_id": "保险公司id",
+            "channel": "来源（包括地图，糯米，线下）",
+            "activity_id": "运营活动id",
+            "pay_status": "支付状态",
+            "pay_time": "支付时间",
+            "status": "订单状态",
+            "type": "订单种类（合作订单，自主订单，送单）",
+            "is_newcar": "是否新车",
+            "total_price": "总金额",
+            "rebate_price": "返现基数",
+            "total_refund": "退保金额",
+            "total_rebate": "返现金额",
+            "total_commission": "佣金",
+            "city_id": "城市id",
+            "ctime": "创建时间",
+            "mtime": "修改时间"
+        },
+        "carInfo": {
+            "vin": "车辆识别代码",
+            "enginenum": "发动机号",
+            "regdate": "注册日期",
+            "carbrand": "车辆品牌",
+            "platenum": "车牌号",
+            "specialcarflag": "是否过户车",
+            "specialcardate": "过户日期",
+            "vehicleframeno": "车架号",
+            "vehicle_invoice_date": "发票开具日期",
+            "vehicle_invoice_no": "新车购置发票号"
+        },
+        "tbUserInfo": {
+            "name": "名称",
+            "idno": "身份证号",
+            "gender": "性别",
+            "phone": "电话",
+            "mail": "邮箱"
+        },
+        "bbUserInfo": {
+            "name": "名称",
+            "idno": "身份证号",
+            "gender": "性别",
+            "phone": "电话",
+            "mail": "邮箱"
+        },
+        "carOwnerInfo": {
+            "name": "名称",
+            "idno": "身份证号",
+            "gender": "性别",
+            "phone": "电话",
+            "mail": "邮箱"
+        },
+        "syInfo": {
+            "policy_num": "保单号",
+            "name": "名称",
+            "start_time": "保单生效日期",
+            "end_time": "保单结束日期",
+            "status": "车架号",
+            "price": "发票开具日期"
+        },
+        "jqInfo": {
+            "policy_num": "保单号",
+            "name": "名称",
+            "start_time": "保单生效日期",
+            "end_time": "保单结束日期",
+            "status": "车架号",
+            "price": "发票开具日期"
+        }
+    }
+}

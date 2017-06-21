@@ -1,0 +1,51 @@
+{
+  "name": "mis",
+  "version": "1.0.0",
+  "description": "For Management Information",
+  "main": "index.js",
+  "scripts": {
+    "build": "node --harmony build/build.js",
+    "dev": "node build/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://zhangyunlu@icode.baidu.com:8235/baidu/car/mis"
+  },
+  "keywords": [
+    "BaiDu",
+    "CarOwner",
+    "Inner"
+  ],
+  "author": "CarOwner Fe",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "babel-core": "^6.1.21",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^6.3.19",
+    "css-loader": "^0.23.1",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "http-proxy-middleware": "^0.17.0",
+    "jquery": "^1.11.3",
+    "moment": "^2.14.1",
+    "shelljs": "^0.7.3",
+    "url-loader": "^0.5.7",
+    "vue": "^1.0.26",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.0.0",
+    "vue-loader": "^8.0.0",
+    "vue-router": "^0.7.13",
+    "vue-strap": "1.1.29",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-middleware": "^1.6.1",
+    "webpack-hot-middleware": "^2.12.2",
+    "webpack-merge": "^0.14.1"
+  }
+}

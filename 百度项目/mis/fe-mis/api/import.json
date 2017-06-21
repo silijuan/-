@@ -1,0 +1,36 @@
+{
+    "code": 0,
+    "msg": "",
+    "data": [
+        {
+    		"id": "18356",
+    		"partner_id": "浙C09090",
+    		"type": "123123213",
+    		"filename": "SINOSIG",
+    		"operator": "车险",
+    		"result": "手机地图",
+    		"ctime": "公司渠道",
+    		"mtime": "123"
+    	},
+        {
+            "id": "18356",
+            "partner_id": "浙C09090",
+            "type": "123123213",
+            "filename": "SINOSIG",
+            "operator": "车险",
+            "result": "手机地图",
+            "ctime": "公司渠道",
+            "mtime": "123"
+        },
+        {
+           "id": "18356",
+            "partner_id": "浙C09090",
+            "type": "123123213",
+            "filename": "SINOSIG",
+            "operator": "车险",
+            "result": "手机地图",
+            "ctime": "公司渠道",
+            "mtime": "123"
+        },
+    ] 
+}
